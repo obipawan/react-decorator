@@ -1,0 +1,20 @@
+{
+  "name": "react-decorators",
+  "version": "0.0.1",
+  "description": "an assortment of @decorators for react and react-native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "decorators",
+    "react",
+    "react-native",
+    "annotation",
+    "higher-order-components",
+    "hoc",
+    "es7"
+  ],
+  "author": "Pawan Kumar",
+  "license": "MIT"
+}
