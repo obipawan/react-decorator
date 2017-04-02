@@ -4,7 +4,9 @@
   "description": "an assortment of @decorators for react and react-native",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel -d dist/ src/"
+    "clean": "rm -rf dist",
+    "build": "babel -d dist/ src/",
+    "prepublish": "npm run clean && npm run build"
   },
   "keywords": [
     "decorators",
