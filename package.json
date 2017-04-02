@@ -1,5 +1,5 @@
 {
-  "name": "react-decorators",
+  "name": "react-decorator",
   "version": "0.0.1",
   "description": "an assortment of @decorators for react and react-native",
   "main": "index.js",

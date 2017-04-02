@@ -7,7 +7,7 @@ An assortment of useful @decorators for react and react-native
 
 ### installation
 ```bash
-npm i -S react-decorators
+npm i -S react-decorator
 ```
 
 ### Usage
@@ -15,7 +15,7 @@ npm i -S react-decorators
 
 ```js
 import React, { Component } from 'react'
-import { request } from 'react-decorators'
+import { request } from 'react-decorator'
 
 @Request({
 	task: fetch(url),
