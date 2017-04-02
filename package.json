@@ -1,6 +1,6 @@
 {
   "name": "react-decorator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "an assortment of @decorators for react and react-native",
   "main": "dist/index.js",
   "scripts": {
