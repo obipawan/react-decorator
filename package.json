@@ -2,9 +2,9 @@
   "name": "react-decorator",
   "version": "0.0.1",
   "description": "an assortment of @decorators for react and react-native",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel -d dist/ src/"
   },
   "keywords": [
     "decorators",
@@ -16,5 +16,13 @@
     "es7"
   ],
   "author": "Pawan Kumar",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0"
+  }
 }
