@@ -17,7 +17,7 @@ npm i -S react-decorator
 import React, { Component } from 'react'
 import { request } from 'react-decorator'
 
-@Request({
+@request({
 	task: fetch(url),
 	LoadingComponent: () => <div>loading....</div>,
 	ErrorComponent: ({ error }) => <div>{ error }</div>,
