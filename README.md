@@ -29,4 +29,23 @@ class App extends Component {
 }
 ```
 
+#### Measure
+```javascript
+import React, { Component } from 'react'
+import { measure } from 'react-decorator'
+
+@measure
+class App extends Component {
+	render () {
+		return (
+			<div>
+				This text fits inside a
+				{ this.props.width }x{ this.props.height }
+				box
+			</div>
+		)
+	}
+}
+```
+
 More coming soon...
