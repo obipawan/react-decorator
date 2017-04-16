@@ -34,7 +34,7 @@ class App extends Component {
 import React, { Component } from 'react'
 import { measure } from 'react-decorator'
 
-@measure
+@measure()
 class App extends Component {
 	render () {
 		return (
